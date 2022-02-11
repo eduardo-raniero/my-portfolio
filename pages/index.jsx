@@ -1,4 +1,7 @@
 
+//COMPONENTS
+import Circle from '../utils/circle/circle';
+
 //CSS
 import styles from '../styles/Home.module.scss'
 
@@ -16,6 +19,10 @@ export default function Home() {
           <h2 style={{color: '#fff'}}><SiNextdotjs /></h2>
           <h2 style={{color: '#0081CB'}}><SiMaterialui /></h2>
         </div>
+      </article>
+
+      <article>
+        <Circle />
       </article>
     </div>
   )

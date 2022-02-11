@@ -6,6 +6,13 @@
         width: 70vw;
         max-width: 50rem;
         margin: 0 auto;
+        animation-name: FadeIn;
+        animation-duration: .25s;
+
+        @keyframes FadeIn{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
 
         h1{
             font-size: 4rem;
