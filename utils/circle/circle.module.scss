@@ -5,12 +5,12 @@
     background: #ccc;
     border: 1rem solid;
     z-index: -1;
-    position: relative;
     margin-top: 0;
     animation-name: UpDown;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    position: absolute;
 }
 
 @keyframes UpDown {

@@ -8,6 +8,7 @@ import styles from '../styles/Home.module.scss'
 //REACT-ICONS
 import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs, SiMaterialui } from 'react-icons/si';
+import { GrDocumentPdf } from 'react-icons/gr';
 
 export default function Home() {
   return (
@@ -23,6 +24,29 @@ export default function Home() {
 
       <article>
         <Circle />
+        <br />
+        <div className={styles.presentation}>
+          <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam, dolores quisquam porro pariatur distinctio aut nobis totam illum eius maxime itaque numquam, perferendis fuga est quae mollitia, architecto consequatur?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam, dolores quisquam porro pariatur distinctio aut nobis totam illum eius maxime itaque numquam, perferendis fuga est quae mollitia, architecto consequatur?</p>
+
+          </div>
+          <div className={styles.cv}>
+            <GrDocumentPdf />
+            <br />
+            <button>Baixar CV</button>
+            
+            <div></div>
+          </div>
+        </div>
+      </article>
+
+      <article className={styles.projects}>
+        <h2>Principais Projetos</h2>
+
+        <div className={styles.projectsItem}></div>
+        <div className={styles.projectsItem}></div>
+        <div className={styles.projectsItem}></div>
       </article>
     </div>
   )
